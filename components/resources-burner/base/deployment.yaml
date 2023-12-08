@@ -10,6 +10,7 @@ metadata:
     app.kubernetes.io/part-of: load-app-2d208e29-8f36-41ec-8546-8e17e3468b99
   name: resources-burner
 spec:
+  replicas: 1
   revisionHistoryLimit: 0
   selector:
     matchLabels:
